@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Image Classification using Convolutional Neural Network</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1,
+        h2,
+        p,
+        code {
+            margin-bottom: 20px;
+        }
+
+        code {
+            background-color: #f4f4f4;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Car Image Classification using Convolutional Neural Network</h1>
+
+    <h2>Code Overview:</h2>
+    <p>This HTML page provides a concise overview of a Python script for building and training a Convolutional Neural
+        Network (CNN) to classify car images using the Keras library.</p>
+
+    <h2>Code Components:</h2>
+    <ul>
+        <li>Image data preprocessing using Keras ImageDataGenerator for training, validation, and test sets.</li>
+        <li>Definition of a CNN model with convolutional and pooling layers, flattening, and dense layers.</li>
+        <li>Compilation of the model with the Adam optimizer and categorical crossentropy loss.</li>
+        <li>Training the model on the car image dataset for 10 epochs.</li>
+    </ul>
+
+    <h2>Directory Structure:</h2>
+    <pre>
+    - Train/
+        - Class1/
+        - Class2/
+        ...
+    - Validation/
+        - Class1/
+        - Class2/
+        ...
+    - Test/
+        - Class1/
+        - Class2/
+        ...
+    </pre>
+
+    <h2>Key Libraries Used:</h2>
+    <ul>
+        <li>os</li>
+        <li>PIL (Pillow)</li>
+        <li>IPython.display</li>
+        <li>Keras</li>
+        <li>NumPy</li>
+        <li>matplotlib</li>
+        <li>seaborn</li>
+    </ul>
+
+    <h2>Model Architecture:</h2>
+    <pre>
+Conv2D(32) -> MaxPooling2D -> Conv2D(64) -> MaxPooling2D -> Flatten -> Dense(128) -> Dense(10)
+    </pre>
+
+    <h2>Training:</h2>
+    <pre>
+model.fit(train_generator, batch_size=32, epochs=10, validation_data=validation_generator, validation_steps=len(validation_generator) // 16)
+    </pre>
+
+    <h2>Outcome:</h2>
+    <p>Upon execution, the model is trained to classify car images into 10 classes with accuracy metrics tracked over 10
+        epochs.</p>
+
+    <h2>Note:</h2>
+    <p>Adjust the directory paths and parameters as needed for your specific dataset and requirements.</p>
+</body>
+
+</html>
