@@ -2,10 +2,10 @@ Certainly! Here's the combined README file containing both the descriptions:
 
 ---
 
-# Car Brand Detection using Convolutional Neural Networks
+# Car logo Detection using Convolutional Neural Networks
 
 ## Overview
-This repository contains code for a deep learning model that performs car brand detection using convolutional neural networks (CNNs). The model is trained to classify images of cars into different brand categories.
+This repository contains code for a deep learning model that performs car logo detection using convolutional neural networks (CNNs). The model is trained to classify images of car logos into different brand categories.
 
 ### Features
 - **Data Augmentation**: The training dataset undergoes data augmentation using techniques such as rescaling, shearing, zooming, and horizontal flipping to enhance model generalization.
@@ -43,15 +43,15 @@ This repository contains code for a deep learning model that performs car brand 
    ```
 
 ## Dataset
-The dataset consists of images of cars categorized by brand. It includes separate directories for training, validation, and testing datasets.
+The dataset consists of images of car logos categorized by brand. It includes separate directories for training, validation, and testing datasets.
 
 ## Results
 The model achieves a high accuracy rate on both the training and validation datasets, as visualized in the provided graphs.
 
-## Car Brand Detection Web Application
+## Car logo Detection Web Application
 
 ### Overview
-This repository contains code for a web application designed to detect car brands from uploaded images. The application utilizes a pre-trained convolutional neural network (CNN) model to classify images into specific car brands.
+This repository contains code for a web application designed to detect car logos from uploaded images. The application utilizes a pre-trained convolutional neural network (CNN) model to classify images into specific car logo brands.
 
 ### Technologies Used
 - **Python**: Programming language used for backend development.
@@ -60,7 +60,7 @@ This repository contains code for a web application designed to detect car brand
 - **HTML/CSS/Bootstrap**: Frontend technologies for creating user interfaces and styling.
 
 ### Files and Directories
-- **model-2.h5**: Pre-trained CNN model for car brand classification.
+- **model-2.h5**: Pre-trained CNN model for car logo classification.
 - **app.py**: Flask application file containing server-side logic.
 - **templates/**: Directory containing HTML templates for different pages.
 - **static/**: Directory containing static files such as CSS and JavaScript.
