@@ -27,11 +27,11 @@ This repository contains code for a deep learning model that performs car brand 
 ## Usage
 1. Clone the repository to your local machine:
    ```
-   git clone https://github.com/your-username/car-brand-detection.git
+   git clone https://github.com/hayderabdela/car-logo-detector.git
    ```
 2. Navigate to the project directory:
    ```
-   cd car-brand-detection
+   cd car-logo-detector
    ```
 3. Install the required dependencies:
    ```
@@ -39,7 +39,7 @@ This repository contains code for a deep learning model that performs car brand 
    ```
 4. Run the main script:
    ```
-   python car_brand_detection.py
+   python car_logo_detector.py
    ```
 
 ## Dataset
