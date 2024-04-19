@@ -1,7 +1,3 @@
-Certainly! Here's the combined README file containing both the descriptions:
-
----
-
 # Car logo Detection using Convolutional Neural Networks
 
 ## Overview
